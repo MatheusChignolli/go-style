@@ -76,7 +76,7 @@ function Home() {
   return (
     <Frame>
       <Header />
-      <Stack pt={11} flex={1} gap={2} overflow="auto">
+      <Stack pt={11} flex={1} gap={2} overflow="auto" pb={12}>
         <Stack gap={1}>
           <TitleWithLink title="Destaques do seu Closet" url="/" />
           <TakePhoto />

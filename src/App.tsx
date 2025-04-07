@@ -27,9 +27,9 @@ function App() {
         }
       >
         <Routes>
-          <Route index element={<Home />} />
+          <Route index element={<Login />} />
+          <Route path="home" element={<Home />} />
           <Route path="onboarding" element={<Onboarding />} />
-          <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
         </Routes>
       </Suspense>

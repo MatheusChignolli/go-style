@@ -21,7 +21,7 @@ function Step5() {
   };
 
   const handleContinue = () => {
-    navigate("/");
+    navigate("/home");
   };
 
   return (

@@ -23,7 +23,7 @@ function Onboarding() {
   const handleContinue = useCallback(() => {
     if (activeStep === onboardingSteps.length - 2) {
       setIsFadingOut(true);
-      setTimeout(() => navigate("/login"), 500);
+      setTimeout(() => navigate("/"), 500);
       return;
     }
 
